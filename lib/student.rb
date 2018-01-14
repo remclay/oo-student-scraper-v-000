@@ -10,7 +10,7 @@ class Student
     @name = student_hash[:name]
     @location = student_hash[:location]
     binding.pry
-    @profile_url = student_hash
+    @profile_url = student_hash[:profile_url]
     @@all << self
   end
 
